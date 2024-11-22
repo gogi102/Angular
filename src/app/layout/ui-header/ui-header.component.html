@@ -1,0 +1,33 @@
+<head>
+    <script>
+        $(".menu > li").mouseover(function () {
+            $(this).children(".sub").stop().slideDown();
+        });
+
+        $(".menu > li").mouseleave(function () {
+            $(this).children(".sub").stop().slideUp();
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <ul class="menu">
+                <li><a href=""><img src="https://medicrew-web-test.medicrew.me/assets/img/medicrew_blue_logo.png"
+                            alt="뉴베이스 로고"></a></li>
+                <li>
+                    <a href="">오픈랩</a>
+                    <ul class="sub">
+                        <li>
+                            <a href="">모집중인 랩</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">스쿨랩</a></li>
+                <li><a href="">고객센터</a></li>
+                <li><a href="">문의하기</a></li>
+            </ul>
+        </div>
+    </header>
+</body>

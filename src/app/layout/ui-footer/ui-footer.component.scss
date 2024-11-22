@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    footer {
+        button a {
+            cursor: pointer;
+        }
+
+        .left {
+            width: 888px;
+            height: 273px;
+            background-color: #FFFFFF;
+            color: black;
+            position: absolute;
+            font-size: 14px;
+            bottom: 0;
+
+            button {
+                width: 13rem;
+                height: 4.6rem;
+                background-color: white;
+                outline-color: lightgray;
+                border-radius: 15px;
+
+                a img {
+                    width: 8rem;
+                }
+            }
+
+
+        }
+    }
+}
